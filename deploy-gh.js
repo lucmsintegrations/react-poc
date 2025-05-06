@@ -16,7 +16,29 @@ async function deploy() {
     
     // 3. Deploy to GitHub Pages
     console.log('\n📤 Deploying to GitHub Pages...');
-    execSync('npx gh-pages -d build', { stdio: 'inherit' });
+    
+    // Create and switch to gh-pages branch
+    try {
+      execSync('git checkout -b gh-pages', { stdio: 'inherit' });
+    } catch (e) {
+      // If branch exists, just switch to it
+      execSync('git checkout gh-pages', { stdio: 'inherit' });
+    }
+    
+    // Copy build files to root
+    execSync('cp -r build/* .', { stdio: 'inherit' });
+    
+    // Add all files
+    execSync('git add .', { stdio: 'inherit' });
+    
+    // Commit changes
+    execSync('git commit -m "Deploy to GitHub Pages"', { stdio: 'inherit' });
+    
+    // Push to gh-pages branch
+    execSync('git push origin gh-pages --force', { stdio: 'inherit' });
+    
+    // Switch back to main branch
+    execSync('git checkout main', { stdio: 'inherit' });
     
     console.log('\n✅ Deployment completed successfully!');
     console.log('🔗 The app is available at: https://lucmsintegrations.github.io/react-cms-app/');
