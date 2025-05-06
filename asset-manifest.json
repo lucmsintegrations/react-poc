@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-cms-app/static/css/main.c3703752.css",
-    "main.js": "/react-cms-app/static/js/main.a2c8fae5.js",
+    "main.js": "/react-cms-app/static/js/main.3f75b220.js",
     "static/js/453.beadc86c.chunk.js": "/react-cms-app/static/js/453.beadc86c.chunk.js",
     "static/media/banner-getting-started1.png": "/react-cms-app/static/media/banner-getting-started1.e5703ff31eb0f917c5f3.png",
     "static/media/banner-getting-started2.png": "/react-cms-app/static/media/banner-getting-started2.65fe9b16213ac80cfa4c.png",
@@ -16,11 +16,11 @@
     "static/media/check-green.svg": "/react-cms-app/static/media/check-green.6c9307bf0c1305cf7b009edc540d965a.svg",
     "static/media/check-white.svg": "/react-cms-app/static/media/check-white.c248b37dc6102a54e5cd3a014ad171d3.svg",
     "main.c3703752.css.map": "/react-cms-app/static/css/main.c3703752.css.map",
-    "main.a2c8fae5.js.map": "/react-cms-app/static/js/main.a2c8fae5.js.map",
+    "main.3f75b220.js.map": "/react-cms-app/static/js/main.3f75b220.js.map",
     "453.beadc86c.chunk.js.map": "/react-cms-app/static/js/453.beadc86c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3703752.css",
-    "static/js/main.a2c8fae5.js"
+    "static/js/main.3f75b220.js"
   ]
 }
