@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/react-poc/static/js/main.15129858.js",
+    "main.js": "/react-poc/static/js/main.30993821.js",
     "main.css": "/react-poc/static/css/main.07bbda70.css"
   },
   "entrypoints": {
     "js": [
       "/react-poc/static/js/453.beadc86c.chunk.js",
-      "/react-poc/static/js/main.15129858.js"
+      "/react-poc/static/js/main.30993821.js"
     ],
     "css": [
       "/react-poc/static/css/main.07bbda70.css"
