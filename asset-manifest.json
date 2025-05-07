@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-poc/static/css/main.07bbda70.css",
-    "main.js": "/react-poc/static/js/main.b10b8368.js",
+    "main.js": "/react-poc/static/js/main.f885b0df.js",
     "static/js/453.beadc86c.chunk.js": "/react-poc/static/js/453.beadc86c.chunk.js",
     "static/media/banner-getting-started1.png": "/react-poc/static/media/banner-getting-started1.e5703ff31eb0f917c5f3.png",
     "static/media/banner-getting-started2.png": "/react-poc/static/media/banner-getting-started2.65fe9b16213ac80cfa4c.png",
@@ -16,11 +16,11 @@
     "static/media/check-green.svg": "/react-poc/static/media/check-green.6c9307bf0c1305cf7b009edc540d965a.svg",
     "static/media/check-white.svg": "/react-poc/static/media/check-white.c248b37dc6102a54e5cd3a014ad171d3.svg",
     "main.07bbda70.css.map": "/react-poc/static/css/main.07bbda70.css.map",
-    "main.b10b8368.js.map": "/react-poc/static/js/main.b10b8368.js.map",
+    "main.f885b0df.js.map": "/react-poc/static/js/main.f885b0df.js.map",
     "453.beadc86c.chunk.js.map": "/react-poc/static/js/453.beadc86c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07bbda70.css",
-    "static/js/main.b10b8368.js"
+    "static/js/main.f885b0df.js"
   ]
 }
